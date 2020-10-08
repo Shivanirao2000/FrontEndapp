@@ -1,0 +1,505 @@
+
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.menu-bar{
+  background-image: linear-gradient(90deg,#00e1fd,#01cffa,#029ff4,#0552e9,#070fdf);
+  width: 100%;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left:50px;
+  padding-right:50px;
+}
+.circle{
+  background-color: white;
+  height: 45px;
+  width: 45px;
+  border-radius: 40px;
+}
+
+.parent{
+  position: relative;
+}
+.Maindiv{
+  display: flex;
+  width: 100%;
+  background-image: url('./icons/landing\ page\ banner\ main.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 32.5rem;
+}
+.Mainrow{
+  margin-top: 10%;
+}
+
+.maincard{
+  background-image: url('./assets/landing\ page\ main\ pic@0.75x.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 30rem;
+  height: 30rem;
+  margin-top: 8%;
+}
+@media screen and (max-width: 768px){
+  .maincard{
+    width: 22rem;
+    height: 20rem;
+    margin-top: 50%;
+  }
+}
+@media screen and (max-width: 600px){
+  .maincard{
+    width: 22rem;
+    height: 20rem;
+    margin-top: 2%;
+  }
+}
+
+.part7{
+  display: flex;
+  width: 100%;
+  background-image: url('./icons/last_team_banner.svg');
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25.5rem;
+  margin-top: 50%;
+}
+@media screen and (max-width: 600px){
+  .part7{
+    margin-top: 1400px;
+    height: 35rem;
+  }
+}
+/* @media screen and (max-width: 768px){
+  .part7{
+    margin-top: 750px;
+    height: 25rem;
+  }
+} */
+.part7card{
+  background-image: url('./assets/last_team@0.75x.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 30rem;
+  height: 30rem;
+  margin-top: -25%;
+  margin-left: -8%;
+}
+@media screen and (max-width: 600px){
+  .part7card{
+    width: 20rem;
+    height: 20rem;
+    margin-top: -160%;
+    margin-left: 5%;
+  }
+}
+ @media screen and (max-width: 768px){
+  .part7card{
+    width: 20rem;
+    height: 20rem;
+     /* margin-top: -160%; */
+    margin-left: 5%; 
+   }
+} 
+
+.part7text{
+  text-align: left;
+  color: white;
+  margin-top: 20%;
+  margin-left: 5%;
+}
+@media screen and (max-width: 600px){
+  .part7text{
+    margin-top: 80%;
+  }
+}
+/* @media screen and (max-width: 768px){
+  .part7text{
+    margin-top: 30%;
+  }
+} */
+.part7text h6{
+  font-size: 10px;
+}
+.part7text button{
+  font-size: 18px;
+  padding: 5px 15px;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  box-shadow: 5px 5px 5px  rgba(0,0,0,0.2);
+  margin-top: 20px;
+}
+.part2{
+  display: flex;
+  width: 100%;
+  background-image: url('./icons/2nd\ bubble.svg');
+  float: left;
+  background-repeat: no-repeat;
+  height: 26.5rem;
+  margin-top: 8%;
+}
+@media screen and (max-width: 600px){
+  .part2{
+    margin-top: 45%;
+  }
+}
+
+.part2card{
+  background-image: url('./assets/2nd\ @0.75x.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 28rem;
+  height: 28rem;
+}
+@media screen and (max-width: 768px){
+  .part2card{
+    width: 22rem;
+    height: 22rem;
+  }
+}
+.part2row{
+  margin-top: 2%;
+}
+
+.part3{
+  display: flex;
+  width: 100%;
+  background-image: url('./icons/bubble\ \(what\ \ can\ we\ surve\ for\ you\).svg');
+  background-position: right;
+  float: right;
+  background-repeat: no-repeat;
+  height: 15.5rem;
+  margin-top: 2%;
+}
+@media screen and (max-width: 600px){
+  .part3{
+    margin-top: 80%;
+  }
+}
+
+.part4{
+  display: flex;
+  width: 100%;
+}
+
+.part4card{
+  background-image: url('./icons/board\ for\ icons.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20rem;
+  height: 20rem;
+  text-align: left;
+  font-size: small;
+  padding-left: 5%;
+}
+
+.part4row{
+  margin-top: 5%;
+} 
+.part4cardicon{
+align-self: center;
+margin-top: 15%;
+}
+
+.part5{
+  display: flex;
+  width: 100%;
+  background-image: url('./icons/team\ bubble.svg');
+  background-position-x: 25%;
+  background-repeat: no-repeat;
+  height: 16rem;
+  margin-top: 25%;
+}
+
+ .part5card1{
+  background-image: url('./assets/team\ @0.75x.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20rem;
+  height: 20rem;
+  margin-top: -70%;
+}
+@media screen and (max-width: 600px){
+  .part5card1{
+    margin-top: -30%;
+  }
+}
+.Paula{
+background-color: #F8F8FA;
+margin-top: 65%;
+height: 3.5rem;
+width: 13.6rem;
+align-self: center;
+border-bottom-left-radius: 16px;
+border-bottom-right-radius: 16px;
+padding-top: 5%;
+}
+.part5card2{
+  background-image: url('./assets/team\ 2@0.75x.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20rem;
+  height: 20rem;
+  margin-top: -70%;
+}
+@media screen and (max-width: 600px){
+  .part5card2{
+    margin-top: 0%;
+  }
+}
+
+.part5row{
+  margin-top: 5%;
+} 
+
+.part6{
+  display: flex;
+  width: 100%;
+  background-image: url('./icons/clients\ bubble.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  float: right;
+  height: 25rem;
+}
+@media screen and (max-width: 768px){
+  .part6{
+    margin-top: 30%;
+  }
+}
+@media screen and (max-width: 600px){
+  .part6{
+    margin-top: 200%;
+  }
+}
+@media screen and (max-width: 600px){
+  .part6row{
+    margin-top: -20%;
+  }
+}
+.part6card{
+  background-image: url('./icons/5.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  width: 20rem;
+  height: 20rem;
+}
+@media screen and (max-width: 768px){
+  .part6card{
+    margin-left: -15%;
+  }
+}
+.lorem{
+  font-weight: 500;
+  color: #898686;
+  font-size: 16px;
+  text-align: left;
+  /* padding-left: 100px; */
+  z-index: 1;
+  margin-top: 25%;
+}
+@media screen and (max-width: 600px){
+  .lorem{
+    margin-top: 10%;
+  }
+}
+.lorem h6{
+  font-size: 10px;
+}
+.lorem h2{
+  color:#2E2E2E;
+}
+.lorem button{
+  font-size: 12px;
+  padding: 5px 20px;
+  border-radius: 20px;
+  background-color: #00e1fd;
+  color: white;
+  border: none;
+  box-shadow: 5px 5px 5px  rgba(0,0,0,0.2);
+  margin-top: 40px;
+}
+
+.loremMain{
+  font-weight: 500;
+  color:white;
+  font-size: 100%;
+  text-align: left;
+  margin-left: 10%;
+  z-index: 1;
+}
+
+.loremMain h6{
+  font-size: 10px;
+}
+
+.loremMain button{
+  font-size: 12px;
+  padding: 5px 20px;
+  border-radius: 20px;
+  background-color: #00e1fd;
+  color: white;
+  border: none;
+  box-shadow: 5px 5px 5px  rgba(0,0,0,0.2);
+  margin-top: 2.5rem;
+}
+
+.bubble{
+  padding-top: 40;
+  padding-left: 15;
+  flex-direction: 'row';
+  justify-content: 'space-between';
+}
+.text{
+  text-align: left;
+  color:#898686;
+  margin-top: 12%;
+}
+.text h2{
+  color:#2E2E2E;
+}
+.part3 button{
+  font-size: 15px;
+  padding: 3px 10px;
+  border-radius: 20px;
+  background-color: #371EE0;
+  color: white;
+  border: none;
+  box-shadow: 5px 5px 5px  rgba(0,0,0,0.2);
+  margin-top: 8rem;
+  margin-left: 18.75rem;
+  height: 35px;
+}
+@media screen and (max-width: 768px){
+  .part3 button{
+    margin-left: 6.75rem;
+  }
+}
+@media screen and (max-width: 600px){
+  .part3 button{
+    margin-left: 0rem;
+  }
+}
+
+.text1{
+  text-align: left;
+  color:#5C5C5F;
+  padding-top: 70px; 
+}
+@media screen and (max-width: 600px){
+  .text1 p{
+    margin-top: -20%;
+  }
+}
+.text1 h1{
+  color:#2E2E2E;
+}
+.text1 p{
+  font-size: 10px;
+  font-weight: 500; 
+  margin-left: 50px;
+}
+.text1 h6{
+  color:aqua;
+  font-size: 12px;
+  margin-left: 50px;
+}
+.text1 h5{
+  margin-left: 50px;
+}
+
+.girl{
+  margin-right: 100px;
+}
+
+.team{
+  text-align: left;
+  color:#2E2E2E;
+  padding-top: 60px;
+  margin-top: -22%;
+  /* margin-left: 10%; */
+}
+@media screen and (max-width: 768px){
+  .team{
+    margin-top: 0%;
+    margin-left: 25%;
+  }
+}
+@media screen and (max-width: 600px){
+  .team{
+    margin-top: -5%;
+    margin-left: 0%;
+  }
+}
+.team p{
+  font-size: 10px;
+  font-weight: 700;
+  color:#898686;
+}
+.team button{
+  font-size: 16px;
+  padding: 2px 15px auto;
+  border-radius: 20px;
+  background-color: #00e1fd;
+  color: white;
+  border: none;
+  box-shadow: 5px 5px 5px  rgba(0,0,0,0.2);
+  margin-top: 20px;
+  margin-left: 150px; 
+}
+
+.logo{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.logo input{
+  width: 400px;
+  border-radius: 40px;
+  border-color: #B2B2B4;
+  margin-top: 40px;
+  margin-left: -10px;
+}
+@media screen and (max-width: 768px){
+  .logo input{
+    width: 300px;
+    margin-left: -20px;
+  }
+}
+.logo button{
+  margin-left: -110px;
+  font-size: 15px;
+  padding: 0px 15px;
+  border-radius: 20px;
+  background-color: #00e1fd;
+  color: white;
+  border: none;
+}
+
+.line{
+  width:100%;
+  border-bottom: 2px solid #ABABAD;
+  padding-bottom: 30px;
+}
+
+.socials{
+  color:  #69696C;
+  margin-left: -48%;
+  margin-top: 1%;
+  font-size: 30px;
+}
+.socials li{
+  display: inline-block;
+  list-style: none;
+  padding: 5px;
+}
