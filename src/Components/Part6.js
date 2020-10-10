@@ -9,7 +9,7 @@ export default class Part6 extends Component {
         return (
             <div>
                 <Container className="part6">
-                <Row className="part6row" xs={1} md={3} lg={3}>
+                <Row className="part6row" xs={2} sm={3} md={3} lg={3}>
                 <Col className="text1">
                 <h1>See what our clients have to say</h1>
                 </Col>
@@ -23,6 +23,7 @@ export default class Part6 extends Component {
                     </p>
                     <h5>Paula James</h5>
                     <h6>Social media influencer</h6>
+                    
                 </Col>
                 </Row>
                 </Container>

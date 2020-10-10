@@ -10,7 +10,7 @@ export default class Part7 extends Component {
         return (
             <div>
                 <Container fluid className="part7">
-                <Row className="part7row" xs={1} md={2}>
+                <Row className="part7row" xs={1} sm={2} md={2}>
                 <Col>
                     <div className="part7text">
                     <p>

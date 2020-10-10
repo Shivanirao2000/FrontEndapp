@@ -10,7 +10,7 @@ export default class Part2 extends Component {
         return (
             <div>
                 <Container className="part2">
-                <Row className="part2row" xs={1} md={2}>
+                <Row className="part2row" xs={1} sm={2} md={2}>
                     <Col>
                     <Card style={{backgroundColor: "transparent", border: "none" }} className="part2card">
                     </Card>

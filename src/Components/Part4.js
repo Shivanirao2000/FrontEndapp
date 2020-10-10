@@ -15,7 +15,7 @@ export default class Part4 extends Component {
         return (
             <div>
                 <Container className="part4">
-                <Row className="part4row" xs={1} md={2} lg={3}>
+                <Row className="part4row" xs={1} sm={2} md={2} lg={3}>
                 <Col>
                 <Card style={{backgroundColor: "transparent", border: "none" }} className="part4card">
                 <Card.Img variant="top" src={Icons1} style={{height: "4rem", width: "4rem" }} className="part4cardicon"/>
